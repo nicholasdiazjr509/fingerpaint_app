@@ -4,8 +4,8 @@ import {View, Text, Stylesheet} from 'react-native';
 const App = () => {
   return (
     <View style={styles.container}>
-     <Text style={{color: 'darkslateblue', fontSize: 30}}>Hello World</Text>
-  </View>
+      <Text style={{color: 'darkslateblue', fontSize: 30}}>Hello World</Text>
+    </View>
   );
 };
 
