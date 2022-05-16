@@ -1,20 +1,16 @@
-import React from 'react';
-import {View, Text, Stylesheet} from 'react-native';
+import React, {useLayoutEffect, useState} from 'react';
+// import {View, Switch, Text, Stylesheet} from 'react-native';
 
-const App = () => {
+// import styles from './styles';
+
+
+
+
   return (
-    <View style={styles.container}>
-      <Text style={{color: 'darkslateblue', fontSize: 30}}>Hello World</Text>
-    </View>
+    <canvas id="canvas" width={window.innerWidth} height={window.innerHeight} >
+      Canvas
+    </canvas>
   );
 };
-
-const styles = Stylesheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
 
 export default App;
