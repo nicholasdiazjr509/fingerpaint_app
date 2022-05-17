@@ -80,8 +80,8 @@ function App() {
         style={{
           border: "1px solid #000",
         }}
-        width={400}
-        height={400}
+        width={800}
+        height={800}
         ref={canvasRef}
         onMouseMove={onMouseMove}
         onMouseUp={onMouseUp}
