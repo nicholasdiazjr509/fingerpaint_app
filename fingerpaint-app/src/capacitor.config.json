@@ -1,6 +1,6 @@
 {
     "appId": "io.ionic.fingerpaint-app",
-    "appName": "nameofyourapp",
+    "appName": "fingerpaint-app",
     "bundledWebRuntime": false,
     "npmClient": "npm",
     "webDir": "build",
